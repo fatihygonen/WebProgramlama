@@ -1,0 +1,30 @@
+body {
+    background-image: linear-gradient(to right , #112B3C,#205375,#68A7AD,#99C4C8);
+}
+
+header {
+    background-image: linear-gradient(to right,#000000,#112B3C,#205375,#68A7AD,#99C4C8);
+    height: 30px;
+    width: 1420px;
+    text-align:right;
+    font-size: 19px;
+    padding: 50px;
+    font-family: 'Noto';
+    font-style:italic;
+}
+
+a {
+    text-decoration: none;
+    color:black; 
+}
+
+a:hover{
+    color: white;
+    transition: 0.5s;
+    font-size:larger;
+}
+
+.header{
+    display:inline-block;
+    margin: 0 5px;
+}
