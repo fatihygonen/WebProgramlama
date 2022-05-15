@@ -4,13 +4,16 @@ body {
 
 header {
     background-image: linear-gradient(to right,#000000,#112B3C,#205375,#68A7AD,#99C4C8);
-    height: 30px;
-    width: 1420px;
+    height: 20px;
+    width: 1480px;
     text-align:right;
     font-size: 19px;
-    padding: 50px;
+    padding: 15px;
     font-family: 'Noto';
     font-style:italic;
+    position:fixed;
+    top: 0px;
+    left: -2px;
 }
 
 a {
@@ -26,5 +29,22 @@ a:hover{
 
 .header{
     display:inline-block;
-    margin: 0 5px;
+    margin: 0 10px;
 }
+
+#logo1 {
+    position:fixed;
+    top:8px;
+    left:270px;  
+}
+#logo2 {
+    position:fixed;
+    top: 8px;
+    left: 293px;  
+}
+#logo3 {
+    position:fixed;
+    top:9px;
+    left:316px;  
+} 
+
