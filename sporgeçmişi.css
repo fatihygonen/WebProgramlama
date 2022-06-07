@@ -46,3 +46,99 @@ a:hover.logo {
     text-decoration: underline;
     text-decoration-color: #082567;
 }
+
+.div {
+    background-image: linear-gradient(to right,grey,#4682B4,#4682B4);
+    height: 4%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position:fixed;
+    top: 7%;
+    left: 0%;
+}
+.div1 {
+    text-decoration: none;
+    display:inline-block;
+    margin: 1% 1%;
+    font-family: 'Noto';
+    font-size: 120%;
+    color:black;  
+    position: fixed;
+    top: 5.5%;
+    left: 3%;
+}
+.div2 {
+    text-decoration: none;
+    display:inline-block;
+    margin: 1% 1%;
+    font-family: 'Noto';
+    font-size: 120%;
+    color:black;  
+    position: fixed;
+    top: 5.5%;
+    left: 11%;
+}
+.div3 {
+    text-decoration: none;
+    display:inline-block;
+    margin: 1% 1%;
+    font-family: 'Noto';
+    font-size: 120%;
+    color:black;  
+    position: fixed;
+    top: 5.5%;
+    left: 17.5%;
+}
+a:hover.div1 {
+    background: white;
+    font-family: 'Impact';
+    opacity: 0.8;
+}
+a:hover.div2 {
+    background: white;
+    font-family: 'Impact';
+    opacity: 0.8;
+}
+a:hover.div3 {
+    background: white;
+    font-family: 'Impact';
+    opacity: 0.8;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium';
+    color:black;
+}
+pre {
+    border: #082567 solid 2px;
+    color: black;
+    font-family: 'Noto';
+    font-size: 120%;
+    padding: 1%;
+}
+.haber1 {
+    font-family: 'Noto';
+    font-size: 120%;
+    color:black;  
+}
+a:hover.haber1 {
+    color:#4682B4;
+}
+.haber2 {
+    font-family: 'Noto';
+    font-size: 120%;
+    color:black;  
+}
+a:hover.haber2 {
+    color:#4682B4;
+}
+.haber3 {
+    font-family: 'Noto';
+    font-size: 120%;
+    color:black;  
+}
+a:hover.haber3 {
+    color:#4682B4;
+}
